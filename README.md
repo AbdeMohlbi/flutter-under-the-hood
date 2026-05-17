@@ -33,7 +33,7 @@ The goal is better understanding of how flutter frameworks works.
   flutter test --update-goldens
 ```
 
-### Additiona ressources
+### Additional ressources
 - [Trig Coordinates Guide](trig-coordinates-guide.md)
   - A simple math guide explaining how `sin` and `cos` work in drawing
   - Covers how to position points on a circle using angles
