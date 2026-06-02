@@ -25,6 +25,10 @@ The goal is better understanding of how flutter frameworks works.
 - [RenderObject](lib/render_objects/)
     - [BoundedProgressPainter](lib/render_objects/reusable_render_object.dart)
     - A custom `LeafRenderObjectWidget` which uses a custom `RenderBox` (a class that extends `RenderObject`) implementation
+
+- [SimpleExamples](lib/simple_examples)
+    - [HttpUsage](lib/simple_examples/http_usage.dart)
+
 - [widgets](lib/widgets)
     - [IndexedStack](lib/widgets/indexed_stack.dart)
     - [InheritedWidget](lib/widgets/inherited_widget.dart)
