@@ -7,8 +7,6 @@ typedef NullableTransitionBuilder = Widget? Function(
   Widget? child,
 );
 
-/// A variant of [ListenableBuilder] that allows the builder to return null.
-/// It uses a custom RenderObject instead of injecting a placeholder [SizedBox].
 class NullableListenableBuilder extends StatefulWidget {
   const new({
     super.key,

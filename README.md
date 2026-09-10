@@ -1,9 +1,6 @@
-# flutter_under_the_hood
+# flutter under the hood
 
-This repository contains practical examples of using [CustomPainter](https://api.flutter.dev/flutter/rendering/CustomPainter-class.html) and
-[RenderObject](https://api.flutter.dev/flutter/rendering/RenderObject-class.html)s. 
-
-The goal is better understanding of how flutter frameworks works.
+This repository contains practical examples of using different techniques in Flutter.
 
 ---
 
@@ -26,9 +23,16 @@ The goal is better understanding of how flutter frameworks works.
     - [BoundedProgressPainter](lib/render_objects/reusable_render_object.dart)
     - A custom `LeafRenderObjectWidget` which uses a custom `RenderBox` (a class that extends `RenderObject`) implementation
 
-- [SimpleExamples](lib/simple_examples)
+- [SimpleExamples](lib/simple_examples/)
     - [HttpUsage](lib/simple_examples/http_usage.dart)
 
+- [NullableListenableBuilder](lib/nullable_listenable_builder/)
+    - A variant of [ListenableBuilder] that allows the builder to return null.
+      it uses a custom RenderObject instead of injecting a placeholder [SizedBox].
+      
+- [AnimatedNullableListenableBuilder](lib/animated_nullable_listenable_builder/)
+    - A variant of [NullableListenableBuilder] that animates the switching.
+    
 - [widgets](lib/widgets)
     - [IndexedStack](lib/widgets/indexed_stack.dart)
     - [InheritedWidget](lib/widgets/inherited_widget.dart)
@@ -55,3 +59,11 @@ The goal is better understanding of how flutter frameworks works.
   - Explains Leaf, SingleChild, and MultiChild RenderObjectWidgets
   - Shows how Flutter connects Widgets to RenderObjects via create/update logic
   - Covers markNeedsLayout, markNeedsPaint, and rendering lifecycle basics
+
+- [Ephemeral state and App State](ephemeral-vs-app.md)
+  - Explains Ephemeral state, App State and the difference between them
+  - Covers when to use Ephemeral state or App state
+
+
+
+The goal is better understanding of how flutter frameworks works and reference for my work.
