@@ -1,5 +1,6 @@
 import 'dart:math';
-import 'package:flutter/material.dart';
+
+import 'package:material_ui/material_ui.dart';
 
 class RepeatingProgressIndicatorApp extends StatelessWidget {
   const RepeatingProgressIndicatorApp({super.key});

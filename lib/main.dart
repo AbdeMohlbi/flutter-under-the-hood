@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 
 import 'custom_painter_usage/bounded_progress_painter.dart';
 import 'custom_painter_usage/repeating_progress_indicator.dart';
