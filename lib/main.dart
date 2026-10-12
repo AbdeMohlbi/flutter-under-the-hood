@@ -1,4 +1,4 @@
-import 'package:material_ui/material_ui.dart';
+import 'package:flutter/widgets.dart';
 
 import 'animated_nullable_listenable_builder/animated_nullable_listenable_builder.dart';
 import 'chat_app_conversation_view_app/chat_app_conversation_view_app.dart';
@@ -6,6 +6,7 @@ import 'custom_painter_usage/bounded_progress_painter.dart';
 import 'custom_painter_usage/repeating_progress_indicator.dart';
 import 'custom_painter_usage/smiley_face.dart';
 import 'custom_painter_usage/smiley_face_with_text.dart';
+import 'custom_painter_usage/star_painter.dart';
 import 'nullable_listenable_builder/nullable_listenable_builder.dart';
 import 'render_objects/reusable_render_object.dart';
 import 'simple_examples/http_usage.dart';
@@ -19,6 +20,7 @@ const widgets = [
   AnimatedNullableListenableBuilderApp(),
   ChatAppConversationViewApp(),
   SmileyFaceWithText(),
+  StarPainterApp(),
 ];
 
 final nonConstWidgets = [HttpUsage(repository: UserRepositoryImpl())];
