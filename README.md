@@ -10,6 +10,9 @@ This repository contains practical examples of using different techniques in Flu
         - Draws a simple smiley face using `CustomPainter`
         - Demonstrates basic shapes like circles, arcs, and positioning
 
+    - [SmileyFaceWithText](lib/custom_painter_usage/smiley_face_with_text.dart)
+        - A variant of `SmileyFace` that draws some text in the middle of the smiley face
+
     - [BoundedProgressPainter](lib/custom_painter_usage/bounded_progress_painter.dart)
         - A custom animated progress indicator
         - Shows how `shouldRepaint` can return `true` or `false` depending on animation state
