@@ -36,6 +36,16 @@ This repository contains practical examples of using different techniques in Flu
 - [widgets](lib/widgets)
     - [IndexedStack](lib/widgets/indexed_stack.dart)
     - [InheritedWidget](lib/widgets/inherited_widget.dart)
+
+- [ChatAppConversationViewApp](lib/chat_app_conversation_view_app/)
+    - A full-screen widget which vaguely resembles a chat app's conversation view.
+      The main purpose of the [ChatAppConversationView] class is to feed the value
+      from a [TextEditingController] into a [TimestampedChatMessage] widget. The
+      [TimestampedChatMessage] is the real star of the show.
+      This widget was demonstrated in https://www.youtube.com/watch?v=cq34RWXegM8
+      as an example of how to build a custom render object.
+    - Original code can be found here
+      https://gist.github.com/craiglabenz/c6fc52e3e61f66c51f7a858115bfce51
     
 ### Tests
 

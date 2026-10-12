@@ -1,6 +1,7 @@
 import 'package:material_ui/material_ui.dart';
 
 import 'animated_nullable_listenable_builder/animated_nullable_listenable_builder.dart';
+import 'chat_app_conversation_view_app/chat_app_conversation_view_app.dart';
 import 'custom_painter_usage/bounded_progress_painter.dart';
 import 'custom_painter_usage/repeating_progress_indicator.dart';
 import 'custom_painter_usage/smiley_face.dart';
@@ -15,9 +16,10 @@ const widgets = [
   ReusableRenderObjectApp(),
   NullableListenableBuilderApp(),
   AnimatedNullableListenableBuilderApp(),
+  ChatAppConversationViewApp(),
 ];
 
 final nonConstWidgets = [HttpUsage(repository: UserRepositoryImpl())];
 void main() {
-  runApp(widgets[4]);
+  runApp(widgets.last);
 }
