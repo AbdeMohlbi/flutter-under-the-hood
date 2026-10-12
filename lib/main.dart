@@ -19,7 +19,7 @@ const widgets = [
   NullableListenableBuilderApp(),
   AnimatedNullableListenableBuilderApp(),
   ChatAppConversationViewApp(),
-  SmileyFaceWithText(),
+  SmileyFaceWithTextApp(),
   StarPainterApp(),
 ];
 

@@ -3,8 +3,8 @@ import 'dart:ui' as ui;
 
 import 'package:material_ui/material_ui.dart';
 
-class SmileyFaceWithText extends StatelessWidget {
-  const SmileyFaceWithText({super.key});
+class SmileyFaceWithTextApp extends StatelessWidget {
+  const SmileyFaceWithTextApp({super.key});
 
   @override
   Widget build(BuildContext context) {
