@@ -45,9 +45,9 @@ class _ChatAppConversationViewState extends State<ChatAppConversationView> {
 
   @override
   Widget build(BuildContext context) {
-    return SafeArea(
-      child: Scaffold(
-        body: Center(
+    return Scaffold(
+      body: SafeArea(
+        child: Center(
           child: SizedBox(
             width: 220,
             child: Column(
