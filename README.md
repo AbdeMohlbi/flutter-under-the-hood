@@ -49,6 +49,11 @@ This repository contains practical examples of using different techniques in Flu
       as an example of how to build a custom render object.
     - Original code can be found here
       https://gist.github.com/craiglabenz/c6fc52e3e61f66c51f7a858115bfce51
+
+- [ValueNotifierAnimatedBuilderExample](lib/animated_nullable_listenable_builder/animated_nullable_listenable_builder.dart)
+    - A simple example of mutating state without using `setState`, this example uses
+     `ValueNotifier` with `AnimatedBuilder` to mutate teh state based on the value
+      of the `animation` (which is the `ValueNotifier` in this case).
     
 ### Tests
 

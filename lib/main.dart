@@ -10,6 +10,7 @@ import 'custom_painter_usage/star_painter.dart';
 import 'nullable_listenable_builder/nullable_listenable_builder.dart';
 import 'render_objects/reusable_render_object.dart';
 import 'simple_examples/http_usage.dart';
+import 'value_notifier_animated_builder_example/value_notifier_animated_builder_example.dart';
 
 const widgets = [
   SmileyFaceApp(),
@@ -21,6 +22,7 @@ const widgets = [
   ChatAppConversationViewApp(),
   SmileyFaceWithTextApp(),
   StarPainterApp(),
+  ValueNotifierAnimatedBuilderExample(),
 ];
 
 final nonConstWidgets = [HttpUsage(repository: UserRepositoryImpl())];
